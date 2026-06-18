@@ -93,7 +93,7 @@ appendix/                        # Jupyter notebooks
 |-------------|-------|
 | Python ≥ 3.13 | Required by the package |
 | [uv](https://docs.astral.sh/uv/) | Fast locked-dependency installer |
-| Disk ≥ 9 GB | Docker image is ~8.7 GB; local `uv sync` installs ~7.7 GB |
+| Disk ≥ 15 GB | Docker image is ~13.7 GB |
 | GPU (optional) | CPU-only inference works; the embedding model (`all-MiniLM-L6-v2`) is small and runs fast on CPU |
 | Groq API key | **Only needed for full pipeline re-execution** — not required to reproduce paper results |
 
@@ -103,7 +103,7 @@ All intermediate outputs (graphml views, alignment `.pkl` files, evaluation CSVs
 
 ### Option A — Docker
 
-Provides a fully reproducible environment. First build takes ~5 minutes and ~9 GB of disk space.
+Provides a fully reproducible environment. First build takes ~10 minutes and ~14 GB of disk space.
 
 ```bash
 # Build the image
@@ -120,6 +120,12 @@ docker run --rm --user "$(id -u):$(id -g)" -v "$(pwd)/results:/app/results" mvaa
 docker run --rm --user "$(id -u):$(id -g)" -p 8888:8888 -v "$(pwd)/results:/app/results" mvaa \
     jupyter notebook --ip=0.0.0.0 --allow-root appendix/results.ipynb
 ```
+
+> **Windows (Git Bash) note:** these commands were written and tested on Ubuntu. On Windows, Git Bash's MSYS layer rewrites POSIX-style paths in arguments and can mangle the `host:container` separator in `-v` flags, silently creating a bogus local folder instead of mounting `results/`. If a Docker run with `-v` doesn't produce output in `results/`, run `export MSYS_NO_PATHCONV=1` once per shell session before any `docker run -v ...` command (applies to every Docker command on this page, including the full pipeline re-execution section below):
+> ```bash
+> export MSYS_NO_PATHCONV=1
+> docker run --rm --user "$(id -u):$(id -g)" -v "$(pwd)/results:/app/results" mvaa python mvaa/tests/reproduce_all.py
+> ```
 
 ### Option B — Local setup with uv
 
@@ -229,6 +235,9 @@ All steps below run via `docker run` against the `mvaa` image (substitute `<your
 # 1. Build the image (if not already built) and have your Groq API key ready;
 #    substitute it for <your-key> in the commands below.
 docker build -t mvaa .
+
+# Windows (Git Bash) only: prevents MSYS from mangling -v host:container paths, see note above
+export MSYS_NO_PATHCONV=1
 
 # 2. Construct the data view (LLM-assisted table/column descriptions)
 for app in cargo jpetstore daytrader; do
