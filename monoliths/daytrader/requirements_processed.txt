@@ -1,0 +1,25 @@
+# Account Management
+The system shall allow users to register a new account with username, password, and initial balance.
+The system shall allow users to login with username and password.
+The system shall allow users to logout.
+The system shall allow users to view users's account profile including personal information and balance.
+The system shall allow users to update users's account profile.
+The system shall display the account balance and open orders for a loggedIn user.
+# Portfolio Management
+The system shall allow users to view users's portfolio of stock holdings.
+The system shall display each holding with quantity, purchase price, and current value.
+The system shall calculate and display the total gain or loss for each holding.
+The system shall display the total portfolio value for a loggedIn user.
+# Quote / Market Data
+The system shall allow users to look up the current price of a stock by symbol.
+The system shall display stock information including symbol, company name, open price, volume, and current price.
+The system shall display a market summary with top gainers and losers.
+The system shall update stock prices to reflect simulated market activity.
+# Trading
+The system shall allow users to buy shares of a stock by specifying symbol and quantity.
+The system shall allow users to sell shares of a stock from users's portfolio.
+The system shall create an order record for each buy or sell transaction.
+The system shall update the account balance when an order is completed.
+The system shall update the holding record when shares are bought or sold.
+The system shall allow users to view users's order history.
+The system shall support both synchronous and asynchronous order processing.

@@ -1,0 +1,48 @@
+{
+  "class:com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean": [
+    "table:KEYGENEJB",
+    "table:HOLDINGEJB",
+    "table:ACCOUNTPROFILEEJB",
+    "table:QUOTEEJB",
+    "table:ORDEREJB",
+    "table:ACCOUNTEJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.ejb3.MarketSummarySingleton": [
+    "table:QUOTEEJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.direct.KeySequenceDirect": [
+    "table:KEYGENEJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.direct.TradeDirect": [
+    "table:KEYGENEJB",
+    "table:HOLDINGEJB",
+    "table:ACCOUNTPROFILEEJB",
+    "table:QUOTEEJB",
+    "table:ORDEREJB",
+    "table:ACCOUNTEJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.util.CompleteOrderThread": [
+    "table:KEYGENEJB",
+    "table:HOLDINGEJB",
+    "table:ACCOUNTPROFILEEJB",
+    "table:QUOTEEJB",
+    "table:ORDEREJB",
+    "table:ACCOUNTEJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.TradeAction": [
+    "table:KEYGENEJB",
+    "table:HOLDINGEJB",
+    "table:ACCOUNTPROFILEEJB",
+    "table:QUOTEEJB",
+    "table:ORDEREJB",
+    "table:ACCOUNTEJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.ejb3.DTBroker3MDB": [
+    "table:KEYGENEJB",
+    "table:HOLDINGEJB",
+    "table:ACCOUNTPROFILEEJB",
+    "table:QUOTEEJB",
+    "table:ORDEREJB",
+    "table:ACCOUNTEJB"
+  ]
+}

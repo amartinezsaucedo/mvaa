@@ -1,0 +1,24 @@
+{
+  "bc_list": ["booking", "handling", "routing", "tracking"],
+  "seeds": {
+    "load#0": "booking",
+    "load leg#0": "booking",
+    "leg#0": "booking",
+    "itinerary#1": "booking",
+    "route specification#0": "booking",
+    "delivery#0": "booking",
+    "cargo#1": "booking",
+    "voyage#0": "routing",
+    "carrier movement#0": "routing",
+    "movement#0": "routing",
+    "trip#0": "routing",
+    "destination#1": "routing",
+    "route#1": "routing",
+    "event#0": "handling",
+    "location#0": "handling",
+    "location#1": "handling",
+    "date#0": "handling",
+    "status#0": "tracking",
+    "estimate delivery date#0": "tracking"
+  }
+}

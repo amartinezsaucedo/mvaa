@@ -1,0 +1,39 @@
+
+Method invocations between services:
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.util.Log -> 71.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.ejb3.MarketSummarySingleton -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.entities.AccountProfileDataBean -> 20.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.entities.QuoteDataBean -> 21.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.entities.OrderDataBean -> 24.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.entities.AccountDataBean -> 11.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.entities.HoldingDataBean -> 3.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.util.TradeConfig -> 7.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.TradeAction -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean -> com.ibm.websphere.samples.daytrader.direct.TradeDirect -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.DTStreamer3MDB -> com.ibm.websphere.samples.daytrader.util.Log -> 13.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.DTStreamer3MDB -> com.ibm.websphere.samples.daytrader.util.MDBStats -> 3.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.DTStreamer3MDB -> com.ibm.websphere.samples.daytrader.util.TimerStat -> 10.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.DTStreamer3MDB -> com.ibm.websphere.samples.daytrader.util.TradeConfig -> 2.0
+  Method call: com.ibm.websphere.samples.daytrader.entities.QuoteDataBean -> com.ibm.websphere.samples.daytrader.util.TradeConfig -> 8.0
+  Method call: com.ibm.websphere.samples.daytrader.entities.QuoteDataBean -> com.ibm.websphere.samples.daytrader.util.Log -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.DTBroker3MDB -> com.ibm.websphere.samples.daytrader.util.Log -> 15.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.DTBroker3MDB -> com.ibm.websphere.samples.daytrader.TradeServices -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.direct.TradeDirect -> com.ibm.websphere.samples.daytrader.entities.QuoteDataBean -> 17.0
+  Method call: com.ibm.websphere.samples.daytrader.direct.TradeDirect -> com.ibm.websphere.samples.daytrader.entities.HoldingDataBean -> 6.0
+  Method call: com.ibm.websphere.samples.daytrader.direct.TradeDirect -> com.ibm.websphere.samples.daytrader.util.MDBStats -> 4.0
+  Method call: com.ibm.websphere.samples.daytrader.beans.MarketSummaryDataBean -> com.ibm.websphere.samples.daytrader.util.FinancialUtils -> 2.0
+  Method call: com.ibm.websphere.samples.daytrader.beans.MarketSummaryDataBean -> com.ibm.websphere.samples.daytrader.entities.QuoteDataBean -> 12.0
+  Method call: com.ibm.websphere.samples.daytrader.beans.MarketSummaryDataBean -> com.ibm.websphere.samples.daytrader.util.TradeConfig -> 3.0
+  Method call: com.ibm.websphere.samples.daytrader.beans.MarketSummaryDataBean -> com.ibm.websphere.samples.daytrader.util.Log -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.TradeAction -> com.ibm.websphere.samples.daytrader.beans.MarketSummaryDataBean -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.quotePriceComparator -> com.ibm.websphere.samples.daytrader.entities.QuoteDataBean -> 2.0
+  Method call: com.ibm.websphere.samples.daytrader.entities.OrderDataBean -> com.ibm.websphere.samples.daytrader.entities.QuoteDataBean -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.entities.HoldingDataBean -> com.ibm.websphere.samples.daytrader.util.TradeConfig -> 5.0
+  Method call: com.ibm.websphere.samples.daytrader.entities.HoldingDataBean -> com.ibm.websphere.samples.daytrader.util.Log -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.MarketSummarySingleton -> com.ibm.websphere.samples.daytrader.util.Log -> 5.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.MarketSummarySingleton -> com.ibm.websphere.samples.daytrader.util.TradeConfig -> 1.0
+  Method call: com.ibm.websphere.samples.daytrader.ejb3.MarketSummarySingleton -> com.ibm.websphere.samples.daytrader.entities.QuoteDataBean -> 3.0
+
+Commit hash: 
+IRN: 277.0
+OPN: 22.0

@@ -1,0 +1,1834 @@
+[
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "# Account Management The system [V: shall] allow users to register a new account with username , password , and initial balance .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "# [ARGM-PRD: Account Management] [ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to register a new account with username , password , and initial balance] .",
+                "tags": [
+                    "O",
+                    "B-ARGM-PRD",
+                    "I-ARGM-PRD",
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "register",
+                "description": "# Account Management The system shall allow [ARG0: users] to [V: register] [ARG1: a new account with username , password , and initial balance] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "#",
+            "Account",
+            "Management",
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "register",
+            "a",
+            "new",
+            "account",
+            "with",
+            "username",
+            ",",
+            "password",
+            ",",
+            "and",
+            "initial",
+            "balance",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] allow users to login with username and password .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to login with username and password] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "login",
+                "description": "The system shall allow [ARG0: users] to [V: login] [ARG1: with username and password] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "login",
+            "with",
+            "username",
+            "and",
+            "password",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] allow users to logout .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to logout] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "logout",
+                "description": "The system shall allow [ARG0: users] to [V: logout] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "logout",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] allow users to view users 's account profile including personal information and balance .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to view users 's account profile including personal information and balance] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "view",
+                "description": "The system shall allow [ARG0: users] to [V: view] [ARG1: users 's account profile] [ARG2: including personal information and balance] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O"
+                ]
+            },
+            {
+                "verb": "including",
+                "description": "The system shall allow users to view [ARG2: users 's account profile] [V: including] [ARG1: personal information and balance] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "view",
+            "users",
+            "'s",
+            "account",
+            "profile",
+            "including",
+            "personal",
+            "information",
+            "and",
+            "balance",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] allow users to update users 's account profile .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to update users 's account profile] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "update",
+                "description": "The system shall allow [ARG0: users] to [V: update] [ARG1: users 's account profile] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "update",
+            "users",
+            "'s",
+            "account",
+            "profile",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] display the account balance and open orders for a loggedIn user .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "display",
+                "description": "[ARG2: The system] [ARGM-MOD: shall] [V: display] [ARG1: the account balance and open orders for a loggedIn user] .",
+                "tags": [
+                    "B-ARG2",
+                    "I-ARG2",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "display",
+            "the",
+            "account",
+            "balance",
+            "and",
+            "open",
+            "orders",
+            "for",
+            "a",
+            "loggedIn",
+            "user",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "# Portfolio Management The system [V: shall] allow users to view users 's portfolio of stock holdings .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "# [ARGM-ADV: Portfolio Management] [ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to view users 's portfolio of stock holdings] .",
+                "tags": [
+                    "O",
+                    "B-ARGM-ADV",
+                    "I-ARGM-ADV",
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "view",
+                "description": "# Portfolio Management The system shall allow [ARG0: users] to [V: view] [ARG1: users 's portfolio of stock holdings] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "#",
+            "Portfolio",
+            "Management",
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "view",
+            "users",
+            "'s",
+            "portfolio",
+            "of",
+            "stock",
+            "holdings",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] display each holding with quantity , purchase price , and current value .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "display",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: display] [ARG1: each holding] [ARG2: with quantity , purchase price , and current value] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "I-ARG2",
+                    "O"
+                ]
+            },
+            {
+                "verb": "holding",
+                "description": "The system shall display [ARG0: each] [V: holding] [ARGM-MNR: with quantity , purchase price , and current value] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "B-V",
+                    "B-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "display",
+            "each",
+            "holding",
+            "with",
+            "quantity",
+            ",",
+            "purchase",
+            "price",
+            ",",
+            "and",
+            "current",
+            "value",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] calculate and display the total gain or loss for each holding .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "calculate",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: calculate] and display [ARG1: the total gain or loss for each holding] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "O",
+                    "O",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "display",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] calculate and [V: display] [ARG1: the total gain or loss for each holding] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "holding",
+                "description": "The system shall calculate and display the total gain or loss for each [V: holding] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "calculate",
+            "and",
+            "display",
+            "the",
+            "total",
+            "gain",
+            "or",
+            "loss",
+            "for",
+            "each",
+            "holding",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] display the total portfolio value for a loggedIn user .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "display",
+                "description": "[ARG2: The system] [ARGM-MOD: shall] [V: display] [ARG1: the total portfolio value for a loggedIn user] .",
+                "tags": [
+                    "B-ARG2",
+                    "I-ARG2",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "display",
+            "the",
+            "total",
+            "portfolio",
+            "value",
+            "for",
+            "a",
+            "loggedIn",
+            "user",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "# Quote / Market Data The system [V: shall] allow users to look up the current price of a stock by symbol .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "# [ARGM-ADV: Quote / Market Data] [ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to look up the current price of a stock by symbol] .",
+                "tags": [
+                    "O",
+                    "B-ARGM-ADV",
+                    "I-ARGM-ADV",
+                    "I-ARGM-ADV",
+                    "I-ARGM-ADV",
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "look",
+                "description": "# Quote / Market Data The system shall allow [ARG0: users] to [V: look] up [ARG1: the current price of a stock] [ARGM-MNR: by symbol] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "O",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "B-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "#",
+            "Quote",
+            "/",
+            "Market",
+            "Data",
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "look",
+            "up",
+            "the",
+            "current",
+            "price",
+            "of",
+            "a",
+            "stock",
+            "by",
+            "symbol",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] display stock information including symbol , company name , open price , volume , and current price .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "display",
+                "description": "[ARG2: The system] [ARGM-MOD: shall] [V: display] [ARG1: stock information including symbol , company name , open price , volume , and current price] .",
+                "tags": [
+                    "B-ARG2",
+                    "I-ARG2",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "including",
+                "description": "The system shall display [ARG2: stock information] [V: including] [ARG1: symbol , company name , open price , volume , and current price] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "display",
+            "stock",
+            "information",
+            "including",
+            "symbol",
+            ",",
+            "company",
+            "name",
+            ",",
+            "open",
+            "price",
+            ",",
+            "volume",
+            ",",
+            "and",
+            "current",
+            "price",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] display a market summary with top gainers and losers .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "display",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: display] [ARG1: a market summary with top gainers and losers] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "display",
+            "a",
+            "market",
+            "summary",
+            "with",
+            "top",
+            "gainers",
+            "and",
+            "losers",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] update stock prices to reflect simulated market activity .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "update",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: update] [ARG1: stock prices] [ARGM-PNC: to reflect simulated market activity] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "B-ARGM-PNC",
+                    "I-ARGM-PNC",
+                    "I-ARGM-PNC",
+                    "I-ARGM-PNC",
+                    "I-ARGM-PNC",
+                    "O"
+                ]
+            },
+            {
+                "verb": "reflect",
+                "description": "The system shall update [ARG2: stock prices] to [V: reflect] [ARG1: simulated market activity] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG2",
+                    "I-ARG2",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "update",
+            "stock",
+            "prices",
+            "to",
+            "reflect",
+            "simulated",
+            "market",
+            "activity",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "# Trading The system [V: shall] allow users to buy shares of a stock by specifying symbol and quantity .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "# Trading [ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to buy shares of a stock by specifying symbol and quantity] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "buy",
+                "description": "# Trading The system shall allow [ARG0: users] to [V: buy] [ARG1: shares of a stock] [ARGM-MNR: by specifying symbol and quantity] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "B-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "I-ARGM-MNR",
+                    "O"
+                ]
+            },
+            {
+                "verb": "specifying",
+                "description": "# Trading The system shall allow [ARG0: users] to buy shares of a stock by [V: specifying] [ARG1: symbol and quantity] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "#",
+            "Trading",
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "buy",
+            "shares",
+            "of",
+            "a",
+            "stock",
+            "by",
+            "specifying",
+            "symbol",
+            "and",
+            "quantity",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] allow users to sell shares of a stock from users 's portfolio .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to sell shares of a stock from users 's portfolio] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "sell",
+                "description": "The system shall allow [ARG0: users] to [V: sell] [ARG1: shares of a stock from users 's portfolio] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "sell",
+            "shares",
+            "of",
+            "a",
+            "stock",
+            "from",
+            "users",
+            "'s",
+            "portfolio",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] create an order record for each buy or sell transaction .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "create",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: create] [ARG1: an order record for each buy or sell transaction] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "sell",
+                "description": "The system shall create an order record for each buy or [V: sell] transaction .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "create",
+            "an",
+            "order",
+            "record",
+            "for",
+            "each",
+            "buy",
+            "or",
+            "sell",
+            "transaction",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] update the account balance when an order is completed .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "update",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: update] [ARG1: the account balance] [ARGM-TMP: when an order is completed] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "B-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "O"
+                ]
+            },
+            {
+                "verb": "is",
+                "description": "The system shall update the account balance when an order [V: is] completed .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "completed",
+                "description": "The system shall update the account balance [ARGM-TMP: when] [ARG1: an order] is [V: completed] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARGM-TMP",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "O",
+                    "B-V",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "update",
+            "the",
+            "account",
+            "balance",
+            "when",
+            "an",
+            "order",
+            "is",
+            "completed",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] update the holding record when shares are bought or sold .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "update",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: update] [ARG1: the holding record] [ARGM-TMP: when shares are bought or sold] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "B-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "I-ARGM-TMP",
+                    "O"
+                ]
+            },
+            {
+                "verb": "holding",
+                "description": "The system shall update the [V: holding] [ARG0: record] when shares are bought or sold .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "B-ARG0",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "are",
+                "description": "The system shall update the holding record when shares [V: are] bought or sold .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "bought",
+                "description": "The system shall update the holding record [ARGM-TMP: when] [ARG1: shares] are [V: bought] or sold .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARGM-TMP",
+                    "B-ARG1",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "sold",
+                "description": "The system shall update the holding record [ARGM-TMP: when] [ARG1: shares] are bought or [V: sold] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARGM-TMP",
+                    "B-ARG1",
+                    "O",
+                    "O",
+                    "O",
+                    "B-V",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "update",
+            "the",
+            "holding",
+            "record",
+            "when",
+            "shares",
+            "are",
+            "bought",
+            "or",
+            "sold",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] allow users to view users 's order history .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "allow",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: allow] [ARG1: users to view users 's order history] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            },
+            {
+                "verb": "view",
+                "description": "The system shall allow [ARG0: users] to [V: view] [ARG1: users 's order history] .",
+                "tags": [
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ARG0",
+                    "O",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "users",
+            "to",
+            "view",
+            "users",
+            "'s",
+            "order",
+            "history",
+            "."
+        ]
+    },
+    {
+        "verbs": [
+            {
+                "verb": "shall",
+                "description": "The system [V: shall] support both synchronous and asynchronous order processing .",
+                "tags": [
+                    "O",
+                    "O",
+                    "B-V",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ]
+            },
+            {
+                "verb": "support",
+                "description": "[ARG0: The system] [ARGM-MOD: shall] [V: support] [ARG1: both synchronous and asynchronous order processing] .",
+                "tags": [
+                    "B-ARG0",
+                    "I-ARG0",
+                    "B-ARGM-MOD",
+                    "B-V",
+                    "B-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "I-ARG1",
+                    "O"
+                ]
+            }
+        ],
+        "words": [
+            "The",
+            "system",
+            "shall",
+            "support",
+            "both",
+            "synchronous",
+            "and",
+            "asynchronous",
+            "order",
+            "processing",
+            "."
+        ]
+    }
+]

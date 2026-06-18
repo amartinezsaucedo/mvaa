@@ -1,0 +1,126 @@
+
+Service 0
+se.citerus.dddsample.domain.model.voyage.VoyageNumber
+se.citerus.dddsample.domain.model.voyage.Schedule
+se.citerus.dddsample.domain.model.cargo.Delivery
+se.citerus.dddsample.domain.shared.ValueObject
+se.citerus.dddsample.infrastructure.sampledata.SampleVoyages
+se.citerus.dddsample.domain.model.cargo.Leg
+se.citerus.dddsample.interfaces.tracking.CargoTrackingViewAdapter
+se.citerus.dddsample.interfaces.booking.facade.internal.assembler.ItineraryCandidateDTOAssembler
+se.citerus.dddsample.domain.model.voyage.CarrierMovement
+se.citerus.dddsample.domain.model.voyage.Voyage.Builder
+se.citerus.dddsample.domain.model.voyage.Voyage
+se.citerus.dddsample.domain.model.cargo.HandlingActivity
+se.citerus.dddsample.domain.model.cargo.Itinerary
+se.citerus.dddsample.infrastructure.persistence.jpa.VoyageRepositoryJPA
+se.citerus.dddsample.domain.model.voyage.VoyageRepository
+
+
+Service 5
+se.citerus.dddsample.domain.model.location.UnLocode
+se.citerus.dddsample.domain.model.location.LocationRepository
+se.citerus.dddsample.infrastructure.sampledata.SampleDataGenerator
+se.citerus.dddsample.domain.model.handling.HandlingEventFactory
+se.citerus.dddsample.config.DDDSampleApplicationContext
+se.citerus.dddsample.infrastructure.persistence.jpa.LocationRepositoryJPA
+se.citerus.dddsample.infrastructure.sampledata.SampleLocations
+
+
+Service 4
+se.citerus.dddsample.domain.model.cargo.CargoFactory
+se.citerus.dddsample.domain.model.cargo.TrackingId
+se.citerus.dddsample.application.BookingService
+se.citerus.dddsample.infrastructure.persistence.jpa.CargoRepositoryJPA
+se.citerus.dddsample.domain.model.cargo.CargoRepository
+se.citerus.dddsample.domain.shared.DomainEntity
+se.citerus.dddsample.application.impl.BookingServiceImpl
+se.citerus.dddsample.domain.service.RoutingService
+se.citerus.dddsample.interfaces.tracking.TrackCommandValidator
+se.citerus.dddsample.interfaces.tracking.CargoTrackingController
+se.citerus.dddsample.interfaces.tracking.TrackCommand
+se.citerus.dddsample.domain.model.cargo.Cargo
+se.citerus.dddsample.domain.model.cargo.RouteSpecification
+
+
+Service 6
+se.citerus.dddsample.domain.model.handling.HandlingEventRepository
+se.citerus.dddsample.infrastructure.persistence.jpa.HandlingEventRepositoryJPA
+se.citerus.dddsample.application.impl.CargoInspectionServiceImpl
+se.citerus.dddsample.domain.model.handling.HandlingHistory
+
+
+Service 10
+se.citerus.dddsample.interfaces.handling.HandlingEventRegistrationAttempt
+se.citerus.dddsample.domain.shared.DomainEvent
+se.citerus.dddsample.application.impl.HandlingEventServiceImpl
+se.citerus.dddsample.interfaces.handling.ws.HandlingReportServiceImpl
+se.citerus.dddsample.application.ApplicationEvents
+se.citerus.dddsample.infrastructure.messaging.jms.JmsApplicationEventsImpl
+se.citerus.dddsample.infrastructure.messaging.jms.HandlingEventRegistrationAttemptConsumer
+se.citerus.dddsample.interfaces.handling.ws.HandlingReport
+se.citerus.dddsample.interfaces.handling.file.UploadDirectoryScanner
+se.citerus.dddsample.domain.model.handling.HandlingEvent
+se.citerus.dddsample.interfaces.InterfacesApplicationContext
+se.citerus.dddsample.application.HandlingEventService
+se.citerus.dddsample.interfaces.handling.HandlingReportParser
+se.citerus.dddsample.interfaces.handling.ws.HandlingReportService
+se.citerus.dddsample.interfaces.tracking.CargoTrackingViewAdapter.HandlingEventViewAdapter
+
+
+Service 9
+se.citerus.dddsample.interfaces.booking.facade.dto.CargoRoutingDTO
+se.citerus.dddsample.interfaces.booking.web.RouteAssignmentCommand.LegCommand
+se.citerus.dddsample.interfaces.booking.facade.dto.RouteCandidateDTO
+se.citerus.dddsample.interfaces.booking.facade.dto.LegDTO
+se.citerus.dddsample.interfaces.booking.facade.internal.assembler.LocationDTOAssembler
+se.citerus.dddsample.interfaces.booking.facade.internal.BookingServiceFacadeImpl
+se.citerus.dddsample.interfaces.booking.facade.dto.LocationDTO
+se.citerus.dddsample.interfaces.booking.facade.BookingServiceFacade
+se.citerus.dddsample.interfaces.booking.web.RegistrationCommand
+se.citerus.dddsample.interfaces.booking.web.CargoAdminController
+se.citerus.dddsample.interfaces.booking.web.RouteAssignmentCommand
+se.citerus.dddsample.interfaces.booking.facade.internal.assembler.CargoRoutingDTOAssembler
+
+
+Service 7
+com.pathfinder.internal.GraphTraversalServiceImpl
+com.pathfinder.api.GraphTraversalService
+com.pathfinder.api.TransitEdge
+se.citerus.dddsample.infrastructure.routing.ExternalRoutingService
+com.pathfinder.api.TransitPath
+
+
+Service 11
+se.citerus.dddsample.domain.model.handling.UnknownLocationException
+se.citerus.dddsample.domain.model.handling.CannotCreateHandlingEventException
+se.citerus.dddsample.domain.model.handling.UnknownCargoException
+se.citerus.dddsample.domain.model.handling.UnknownVoyageException
+
+
+Service 1
+se.citerus.dddsample.domain.shared.AbstractSpecification
+se.citerus.dddsample.domain.shared.AndSpecification
+se.citerus.dddsample.domain.shared.NotSpecification
+se.citerus.dddsample.domain.shared.OrSpecification
+se.citerus.dddsample.domain.shared.Specification
+
+
+Service 2
+se.citerus.dddsample.infrastructure.messaging.jms.CargoHandledConsumer
+se.citerus.dddsample.application.CargoInspectionService
+se.citerus.dddsample.infrastructure.messaging.jms.InfrastructureMessagingJmsConfig
+
+
+Service 8
+se.citerus.dddsample.interfaces.tracking.ws.HandlingEventDTO
+se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingDTO
+se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingDTOConverter
+se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingRestService
+
+
+Service 3
+com.pathfinder.internal.GraphDAOStub
+com.pathfinder.config.PathfinderApplicationContext
+com.pathfinder.internal.GraphDAO
+

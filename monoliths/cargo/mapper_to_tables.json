@@ -1,0 +1,17 @@
+{
+  "class:se.citerus.dddsample.domain.model.cargo.CargoRepository": [
+    "table:CARGO"
+  ],
+  "class:se.citerus.dddsample.domain.model.voyage.VoyageRepository": [
+    "table:VOYAGE"
+  ],
+  "class:se.citerus.dddsample.infrastructure.persistence.jpa.HandlingEventRepositoryJPA": [
+    "table:HANDLING_EVENT"
+  ],
+  "class:se.citerus.dddsample.infrastructure.persistence.jpa.VoyageRepositoryJPA": [
+    "table:VOYAGE"
+  ],
+  "class:se.citerus.dddsample.infrastructure.persistence.jpa.CargoRepositoryJPA": [
+    "table:CARGO"
+  ]
+}

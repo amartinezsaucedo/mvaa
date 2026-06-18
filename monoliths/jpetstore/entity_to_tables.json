@@ -1,0 +1,26 @@
+{
+  "class:org.mybatis.jpetstore.domain.LineItem": [
+    "table:LINEITEM"
+  ],
+  "class:org.mybatis.jpetstore.domain.Order": [
+    "table:ORDERS",
+    "table:ORDERSTATUS"
+  ],
+  "class:org.mybatis.jpetstore.domain.Category": [
+    "table:CATEGORY"
+  ],
+  "class:org.mybatis.jpetstore.domain.Account": [
+    "table:ACCOUNT",
+    "table:SIGNON"
+  ],
+  "class:org.mybatis.jpetstore.domain.Item": [
+    "table:INVENTORY",
+    "table:ITEM"
+  ],
+  "class:org.mybatis.jpetstore.domain.Product": [
+    "table:PRODUCT"
+  ],
+  "class:org.mybatis.jpetstore.domain.Sequence": [
+    "table:SEQUENCE"
+  ]
+}

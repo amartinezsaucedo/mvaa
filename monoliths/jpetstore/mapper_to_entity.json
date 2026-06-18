@@ -1,0 +1,9 @@
+{
+  "class:org.mybatis.jpetstore.mapper.LineItemMapper": "class:org.mybatis.jpetstore.domain.LineItem",
+  "class:org.mybatis.jpetstore.mapper.OrderMapper": "class:org.mybatis.jpetstore.domain.Order",
+  "class:org.mybatis.jpetstore.mapper.CategoryMapper": "class:org.mybatis.jpetstore.domain.Category",
+  "class:org.mybatis.jpetstore.mapper.AccountMapper": "class:org.mybatis.jpetstore.domain.Account",
+  "class:org.mybatis.jpetstore.mapper.ItemMapper": "class:org.mybatis.jpetstore.domain.Item",
+  "class:org.mybatis.jpetstore.mapper.ProductMapper": "class:org.mybatis.jpetstore.domain.Product",
+  "class:org.mybatis.jpetstore.mapper.SequenceMapper": "class:org.mybatis.jpetstore.domain.Sequence"
+}

@@ -1,0 +1,17 @@
+{
+  "class:com.ibm.websphere.samples.daytrader.entities.QuoteDataBean": [
+    "table:QUOTEEJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.entities.OrderDataBean": [
+    "table:ORDEREJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.entities.HoldingDataBean": [
+    "table:HOLDINGEJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.entities.AccountDataBean": [
+    "table:ACCOUNTEJB"
+  ],
+  "class:com.ibm.websphere.samples.daytrader.entities.AccountProfileDataBean": [
+    "table:ACCOUNTPROFILEEJB"
+  ]
+}

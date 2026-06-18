@@ -1,0 +1,22 @@
+{
+  "bc_list": ["account", "portfolio", "trade", "quote"],
+  "seeds": {
+    "account#0":              "account",
+    "username#0":             "account",
+    "password#0":             "account",
+    "users account profile#0": "account",
+    "loggedin user#0":        "account",
+    "portfolio#0":            "portfolio",
+    "users portfolio#0":      "portfolio",
+    "holding#0":              "portfolio",
+    "total portfolio value#0": "portfolio",
+    "total gain#0":           "portfolio",
+    "order#0":                "trade",
+    "order record#0":         "trade",
+    "buy sell transaction#0": "trade",
+    "stock#0":                "quote",
+    "price#0":                "quote",
+    "symbol#0":               "quote",
+    "lookup#new_37cc8812":    "quote"
+  }
+}

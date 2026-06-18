@@ -1,0 +1,24 @@
+
+Method invocations between services:
+  Method call: org.mybatis.jpetstore.web.actions.CatalogActionBean -> org.mybatis.jpetstore.domain.Item -> 1.0
+  Method call: org.mybatis.jpetstore.web.actions.CartActionBean -> org.mybatis.jpetstore.service.CatalogService -> 2.0
+  Method call: org.mybatis.jpetstore.web.actions.CartActionBean -> org.mybatis.jpetstore.domain.Item -> 1.0
+  Method call: org.mybatis.jpetstore.domain.LineItem -> org.mybatis.jpetstore.domain.CartItem -> 4.0
+  Method call: org.mybatis.jpetstore.domain.Order -> org.mybatis.jpetstore.domain.Account -> 17.0
+  Method call: org.mybatis.jpetstore.domain.Order -> org.mybatis.jpetstore.domain.Cart -> 2.0
+  Method call: org.mybatis.jpetstore.service.CatalogService -> org.mybatis.jpetstore.mapper.CategoryMapper -> 2.0
+  Method call: org.mybatis.jpetstore.service.CatalogService -> org.mybatis.jpetstore.mapper.ItemMapper -> 3.0
+  Method call: org.mybatis.jpetstore.web.actions.OrderActionBean -> org.mybatis.jpetstore.web.actions.AccountActionBean -> 4.0
+  Method call: org.mybatis.jpetstore.web.actions.OrderActionBean -> org.mybatis.jpetstore.web.actions.CartActionBean -> 2.0
+  Method call: org.mybatis.jpetstore.domain.Item -> org.mybatis.jpetstore.domain.Product -> 1.0
+  Method call: org.mybatis.jpetstore.web.actions.AccountActionBean -> org.mybatis.jpetstore.service.CatalogService -> 3.0
+  Method call: org.mybatis.jpetstore.domain.Cart -> org.mybatis.jpetstore.domain.Item -> 2.0
+  Method call: org.mybatis.jpetstore.service.OrderService -> org.mybatis.jpetstore.mapper.ItemMapper -> 3.0
+  Method call: org.mybatis.jpetstore.service.OrderService -> org.mybatis.jpetstore.mapper.LineItemMapper -> 2.0
+  Method call: org.mybatis.jpetstore.service.OrderService -> org.mybatis.jpetstore.domain.Item -> 1.0
+  Method call: org.mybatis.jpetstore.service.OrderService -> org.mybatis.jpetstore.mapper.SequenceMapper -> 2.0
+  Method call: org.mybatis.jpetstore.service.OrderService -> org.mybatis.jpetstore.domain.Sequence -> 2.0
+
+Commit hash: 
+IRN: 54.0
+OPN: 71.0

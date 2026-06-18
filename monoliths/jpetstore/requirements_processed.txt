@@ -1,0 +1,22 @@
+As a user I need to list the products or pets that belong to a category.
+As a user I need to list the categories available in the system.
+As a user I need to search for products or pets specifying a name.
+As a user I need to see the items of a selected product.
+As a user I need to see the details of an item, a text or name and a visual description of an item and the number of an item in stock are displayed.
+As a user I need to add an item or item to the shopping cart.
+As a user I need to remove an item from the shopping cart.
+As a user I need to adjust the quantity of an item in the shopping cart.
+As a user I need to obtain the items from the shopping cart.
+As a user I need to create a new order from the items selected in the shopping cart.
+As a user I need to obtain the data of an order by an order's id.
+As a user I need to obtain and assign a new number or ID of an order.
+As a user I need to list the orders that I have made specifying the username.
+As a system I need to verify if the user is authenticated in order to create an order, otherwise the user must register and authenticate.
+As a user I need to register in the system providing a username and password.
+As a user I need to obtain my account information in the system by providing my username.
+As a user, I need to log out of the system.
+As a user I need to modify my account data (username or password) in the system.
+As a user I need to obtain the details of a category by entering a category's id.
+As a user I need to obtain the details of a product by entering a product's id.
+As a user I need to verify if there are available units of the item or article.
+As a user I need to authenticate myself in the system by providing my username and password.

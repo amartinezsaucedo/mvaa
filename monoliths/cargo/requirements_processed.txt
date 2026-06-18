@@ -1,0 +1,14 @@
+Operator create a trip (Voyage) for a given cargo, specifying the movements necessary to reach a given cargo's destination to register cargo in the system.
+Operator register or create an event at a location indicating the date when an event ends.
+Operator add a carrier movement for a created trip, a carrier movement for a created trip specifies where the carrier is located on a given date.
+Operator create a location specifying a location's name and identifier.
+Operator consult the tracking of the trip or cargo according to the TrackinId.
+Operator create a cargo to transport. A TrackinId is generated. An itinerary (Itinerary), a route specification (Route specification) and a delivery (Delivery) are associated.
+Operator create an itinerary for a load specifying a load's legs.
+Operator create a leg for an itinerary.
+Operator create the cargo shipment, the route is specified by entering an origin and destination location and a delivery deadline is established.
+Operator modify the destination of a sent cargo.
+Operator create and associate a delivery with a sent cargo, calculate an estimated delivery date taking into account the status of the carriers and the status of the routes.
+Operator obtain the list of available locations.
+Operator obtain the status of the carriers.
+Operator obtain the status of the routes.

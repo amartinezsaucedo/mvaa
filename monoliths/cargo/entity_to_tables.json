@@ -1,0 +1,17 @@
+{
+  "class:se.citerus.dddsample.domain.model.cargo.Leg": [
+    "table:LEG"
+  ],
+  "class:se.citerus.dddsample.domain.model.handling.HandlingEvent": [
+    "table:HANDLING_EVENT"
+  ],
+  "class:se.citerus.dddsample.domain.model.voyage.CarrierMovement": [
+    "table:CARRIER_MOVEMENT"
+  ],
+  "class:se.citerus.dddsample.domain.model.cargo.Cargo": [
+    "table:CARGO"
+  ],
+  "class:se.citerus.dddsample.domain.model.voyage.Voyage": [
+    "table:VOYAGE"
+  ]
+}

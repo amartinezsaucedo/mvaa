@@ -1,0 +1,65 @@
+
+Method invocations between services:
+  Method call: se.citerus.dddsample.domain.model.handling.UnknownCargoException -> se.citerus.dddsample.domain.model.cargo.TrackingId -> 1.0
+  Method call: se.citerus.dddsample.domain.model.handling.HandlingEventFactory -> se.citerus.dddsample.domain.model.cargo.CargoRepository -> 1.0
+  Method call: se.citerus.dddsample.domain.model.handling.HandlingEventFactory -> se.citerus.dddsample.domain.model.voyage.VoyageRepository -> 1.0
+  Method call: se.citerus.dddsample.domain.model.handling.HandlingEventFactory -> se.citerus.dddsample.domain.model.location.LocationRepository -> 1.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.assembler.ItineraryCandidateDTOAssembler -> se.citerus.dddsample.domain.model.cargo.Itinerary -> 2.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.assembler.ItineraryCandidateDTOAssembler -> se.citerus.dddsample.domain.model.cargo.Leg -> 5.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.assembler.ItineraryCandidateDTOAssembler -> se.citerus.dddsample.domain.model.voyage.VoyageNumber -> 1.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.assembler.ItineraryCandidateDTOAssembler -> se.citerus.dddsample.domain.model.location.UnLocode -> 2.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.assembler.ItineraryCandidateDTOAssembler -> se.citerus.dddsample.domain.model.voyage.VoyageRepository -> 1.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.assembler.ItineraryCandidateDTOAssembler -> se.citerus.dddsample.domain.model.location.LocationRepository -> 2.0
+  Method call: se.citerus.dddsample.domain.model.cargo.Itinerary -> se.citerus.dddsample.domain.model.handling.HandlingEvent -> 10.0
+  Method call: se.citerus.dddsample.domain.model.cargo.Cargo -> se.citerus.dddsample.domain.model.cargo.RouteSpecification -> 2.0
+  Method call: se.citerus.dddsample.domain.model.cargo.Cargo -> se.citerus.dddsample.domain.model.cargo.Delivery -> 5.0
+  Method call: se.citerus.dddsample.domain.model.cargo.Cargo -> se.citerus.dddsample.domain.model.cargo.Itinerary -> 2.0
+  Method call: se.citerus.dddsample.domain.model.cargo.Cargo -> se.citerus.dddsample.domain.model.handling.HandlingHistory -> 1.0
+  Method call: se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingRestService -> se.citerus.dddsample.domain.model.cargo.CargoRepository -> 1.0
+  Method call: se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingRestService -> se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingDTOConverter -> 1.0
+  Method call: se.citerus.dddsample.infrastructure.messaging.jms.HandlingEventRegistrationAttemptConsumer -> se.citerus.dddsample.application.HandlingEventService -> 1.0
+  Method call: se.citerus.dddsample.domain.model.cargo.CargoFactory -> se.citerus.dddsample.domain.model.location.LocationRepository -> 2.0
+  Method call: se.citerus.dddsample.infrastructure.messaging.jms.JmsApplicationEventsImpl -> se.citerus.dddsample.domain.model.handling.HandlingEvent -> 1.0
+  Method call: se.citerus.dddsample.infrastructure.messaging.jms.JmsApplicationEventsImpl -> se.citerus.dddsample.domain.model.cargo.Cargo -> 3.0
+  Method call: se.citerus.dddsample.interfaces.tracking.CargoTrackingController -> se.citerus.dddsample.domain.model.cargo.CargoRepository -> 1.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.assembler.CargoRoutingDTOAssembler -> se.citerus.dddsample.domain.model.cargo.Cargo -> 6.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.assembler.CargoRoutingDTOAssembler -> se.citerus.dddsample.domain.model.cargo.Leg -> 5.0
+  Method call: se.citerus.dddsample.domain.model.cargo.Delivery -> se.citerus.dddsample.domain.model.handling.HandlingHistory -> 1.0
+  Method call: se.citerus.dddsample.interfaces.tracking.CargoTrackingViewAdapter -> se.citerus.dddsample.domain.model.cargo.Cargo -> 8.0
+  Method call: se.citerus.dddsample.interfaces.tracking.CargoTrackingViewAdapter -> se.citerus.dddsample.domain.model.cargo.Delivery -> 2.0
+  Method call: se.citerus.dddsample.interfaces.tracking.CargoTrackingViewAdapter -> se.citerus.dddsample.domain.model.cargo.HandlingActivity -> 6.0
+  Method call: se.citerus.dddsample.interfaces.tracking.CargoTrackingViewAdapter -> se.citerus.dddsample.domain.model.voyage.Voyage -> 1.0
+  Method call: se.citerus.dddsample.interfaces.tracking.CargoTrackingViewAdapter.HandlingEventViewAdapter -> se.citerus.dddsample.domain.model.voyage.Voyage -> 1.0
+  Method call: se.citerus.dddsample.interfaces.tracking.CargoTrackingViewAdapter.HandlingEventViewAdapter -> se.citerus.dddsample.domain.model.cargo.Cargo -> 1.0
+  Method call: se.citerus.dddsample.domain.model.handling.HandlingEvent -> se.citerus.dddsample.domain.model.cargo.Cargo -> 1.0
+  Method call: se.citerus.dddsample.domain.model.handling.HandlingEvent -> se.citerus.dddsample.domain.model.voyage.Voyage -> 1.0
+  Method call: se.citerus.dddsample.application.impl.BookingServiceImpl -> se.citerus.dddsample.domain.model.cargo.CargoFactory -> 1.0
+  Method call: se.citerus.dddsample.application.impl.BookingServiceImpl -> se.citerus.dddsample.domain.model.cargo.CargoRepository -> 6.0
+  Method call: se.citerus.dddsample.application.impl.BookingServiceImpl -> se.citerus.dddsample.domain.model.cargo.Cargo -> 7.0
+  Method call: se.citerus.dddsample.application.impl.BookingServiceImpl -> se.citerus.dddsample.domain.model.location.LocationRepository -> 1.0
+  Method call: se.citerus.dddsample.application.impl.CargoInspectionServiceImpl -> se.citerus.dddsample.domain.model.handling.HandlingEventRepository -> 1.0
+  Method call: se.citerus.dddsample.application.impl.CargoInspectionServiceImpl -> se.citerus.dddsample.application.ApplicationEvents -> 2.0
+  Method call: se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingDTOConverter -> se.citerus.dddsample.domain.model.handling.HandlingEvent -> 6.0
+  Method call: se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingDTOConverter -> se.citerus.dddsample.domain.model.cargo.Cargo -> 7.0
+  Method call: se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingDTOConverter -> se.citerus.dddsample.domain.model.cargo.Delivery -> 2.0
+  Method call: se.citerus.dddsample.interfaces.tracking.ws.CargoTrackingDTOConverter -> se.citerus.dddsample.domain.model.cargo.HandlingActivity -> 6.0
+  Method call: se.citerus.dddsample.interfaces.booking.web.CargoAdminController -> se.citerus.dddsample.interfaces.booking.web.RouteAssignmentCommand -> 4.0
+  Method call: se.citerus.dddsample.interfaces.booking.web.CargoAdminController -> se.citerus.dddsample.interfaces.booking.web.RouteAssignmentCommand.LegCommand -> 5.0
+  Method call: se.citerus.dddsample.infrastructure.persistence.jpa.HandlingEventRepositoryJPA -> se.citerus.dddsample.domain.model.cargo.TrackingId -> 1.0
+  Method call: se.citerus.dddsample.domain.model.handling.UnknownVoyageException -> se.citerus.dddsample.domain.model.voyage.VoyageNumber -> 1.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.BookingServiceFacadeImpl -> se.citerus.dddsample.domain.model.location.LocationRepository -> 1.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.BookingServiceFacadeImpl -> se.citerus.dddsample.application.BookingService -> 4.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.BookingServiceFacadeImpl -> se.citerus.dddsample.domain.model.cargo.TrackingId -> 1.0
+  Method call: se.citerus.dddsample.interfaces.booking.facade.internal.BookingServiceFacadeImpl -> se.citerus.dddsample.domain.model.cargo.CargoRepository -> 2.0
+  Method call: se.citerus.dddsample.infrastructure.routing.ExternalRoutingService -> com.pathfinder.api.GraphTraversalService -> 1.0
+  Method call: se.citerus.dddsample.infrastructure.routing.ExternalRoutingService -> com.pathfinder.api.TransitPath -> 2.0
+  Method call: se.citerus.dddsample.infrastructure.routing.ExternalRoutingService -> se.citerus.dddsample.domain.model.voyage.VoyageRepository -> 1.0
+  Method call: se.citerus.dddsample.infrastructure.routing.ExternalRoutingService -> com.pathfinder.api.TransitEdge -> 5.0
+  Method call: se.citerus.dddsample.infrastructure.routing.ExternalRoutingService -> se.citerus.dddsample.domain.model.location.LocationRepository -> 2.0
+  Method call: se.citerus.dddsample.domain.model.handling.UnknownLocationException -> se.citerus.dddsample.domain.model.location.UnLocode -> 1.0
+  Method call: se.citerus.dddsample.application.impl.HandlingEventServiceImpl -> se.citerus.dddsample.domain.model.handling.HandlingEventFactory -> 1.0
+  Method call: se.citerus.dddsample.application.impl.HandlingEventServiceImpl -> se.citerus.dddsample.application.ApplicationEvents -> 1.0
+
+Commit hash: 
+IRN: 152.0
+OPN: 18.0
